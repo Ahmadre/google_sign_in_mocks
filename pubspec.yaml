@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_sign_in: ^5.0.2
+  google_sign_in:
+    git:
+      url: git://github.com/Ahmadre/plugins
+      ref: feature/google-sign-in-macos
+      path: packages/google_sign_in/google_sign_in
   mockito: ^5.0.7
 
 dev_dependencies:
